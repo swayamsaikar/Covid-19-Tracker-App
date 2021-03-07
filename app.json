@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Covid-19-Traker-App",
-    "slug": "Covid-19-Traker-App",
+    "name": "Covid-19-Tracker-App",
+    "slug": "Covid-19-Tracker-App",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
