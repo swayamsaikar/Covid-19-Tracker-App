@@ -39,7 +39,7 @@ export default class HomeScreen extends Component {
             height: "46%",
             borderBottomRightRadius: 30,
             borderBottomLeftRadius: 30,
-            backgroundColor: "#473F97",
+            backgroundColor: "#00b894",
           }}
         >
           <View style={{ marginTop: 33, marginLeft: 30 }}>
@@ -72,7 +72,7 @@ export default class HomeScreen extends Component {
           >
             <TouchableOpacity
               onPress={() => {
-                Linking.openURL("tel:9439994859");
+                Linking.openURL("tel:1075");
               }}
             >
               <View style={[styles.Button, { backgroundColor: "#FF4D58" }]}>
@@ -85,7 +85,7 @@ export default class HomeScreen extends Component {
 
             <TouchableOpacity
               onPress={() => {
-                Linking.openURL("sms:9013151515");
+                Linking.openURL("sms:1075");
               }}
             >
               <View style={[styles.Button, { backgroundColor: "#4D79FF" }]}>
@@ -166,7 +166,7 @@ export default class HomeScreen extends Component {
             justifyContent: "space-around",
             alignItems: "center",
             borderRadius: 20,
-            backgroundColor: "#9B92D6",
+            backgroundColor: "#F8AFA6",
           }}
         >
           <Image

@@ -11,7 +11,7 @@ export default class Navigator extends Component {
     return (
       <NavigationContainer>
         <Tab.Navigator
-          initialRouteName="Statistics"
+          initialRouteName="Home"
           labeled={false}
           barStyle={{
             elevation: 0,
@@ -28,7 +28,7 @@ export default class Navigator extends Component {
                   style={{ width: 30, height: 30 }}
                 />
               ),
-              tabBarColor: "#473F97",
+              tabBarColor: "#778beb",
             }}
           />
           <Tab.Screen
@@ -41,7 +41,7 @@ export default class Navigator extends Component {
                   style={{ width: 30, height: 30 }}
                 />
               ),
-              tabBarColor: "#2980b9",
+              tabBarColor: "#f7d794",
             }}
           />
         </Tab.Navigator>

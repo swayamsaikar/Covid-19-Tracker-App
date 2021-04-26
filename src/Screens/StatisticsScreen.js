@@ -219,9 +219,9 @@ export default class StatisticsScreen extends Component {
               <View
                 style={{
                   flexDirection: "row",
-                  justifyContent: "space-around",
+                  justifyContent: "space-evenly",
                   alignItems: "center",
-                  width: "50%",
+                  width: "55%",
                 }}
               >
                 <Text>{item.cases}</Text>
@@ -309,7 +309,7 @@ export default class StatisticsScreen extends Component {
           <View
             style={{
               flexDirection: "row",
-              justifyContent: "space-between",
+              justifyContent: "space-evenly",
               alignItems: "center",
               width: "90%",
               alignSelf: "center",
@@ -382,7 +382,7 @@ export default class StatisticsScreen extends Component {
             <View
               style={[
                 styles.boxRow2,
-                { backgroundColor: "#4DB5FF", width: 105 },
+                { backgroundColor: "#4DB5FF", width: 110 },
               ]}
             >
               <Text style={{ color: "#fff", margin: 15, fontSize: 18 }}>
